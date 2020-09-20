@@ -337,3 +337,63 @@ slider__items_image-container {
   width: 407px;
   margin: 319px 0 339px 0;
 }
+
+.sign-up_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 524px;
+  background-image: url('assets/images/pexels-christina-morillo-1181675 1.png');
+  background-color: #000;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.sign-up_section-text {
+  font-family: Roboto Bold;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFF;
+  margin: 200px auto 30px auto;
+}
+
+.sign-up_section-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.sign-up_section-form input {
+  width: 292px;
+  height: 46px;
+  padding: 0 24px;
+  font-family: Roboto Regular;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #373737;
+  border: none;
+}
+
+.sign-up_section-form button {
+  width: 66px;
+  height: 46px;
+  background-color: #00AFDB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FFF;
+  border: none;
+  padding: 0;
+}
+.sign-up_section-form button:hover {
+  background-color: #009CC2;
+}
+
