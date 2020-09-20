@@ -33,7 +33,7 @@ body {
 .header__block_title {
   color: #FFF;
   text-transform: uppercase;
-  position: fixed;
+  position: absolute;
   left: 40px;
   font-family: Roboto Bold;
   border: 2px solid #FFF;
@@ -135,7 +135,6 @@ body {
   text-transform: uppercase;
   color: #FFF;
   border: none;
-  margin-bottom: 183px;
 }
 
 .btn-main:hover {
@@ -143,6 +142,10 @@ body {
   width: 184px;
   background-color: #009CC2;
   cursor: pointer;
+}
+
+.first_block_btn-main {
+  margin-bottom: 183px;
 }
 
 .first_block_social-links {
@@ -154,3 +157,49 @@ body {
   transform: scale(1.1);
 }
 
+.main__content_section {
+}
+
+.rappresent__content_article {
+  display: flex;
+  align-items: center;
+  height: 842px;
+  background-color: #FFF;
+}
+
+.rappresent__content_block {
+  height: 233px;
+  width: 407px;
+  margin: 295px 248px 314px 269px;
+}
+
+.rappresent__content_title {
+  margin-bottom: 20px;
+  margin-top: 0;
+  font-family: Roboto Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #373737;
+}
+
+.rappresent__content_text {
+  margin-bottom: 30px;
+  margin-top: 0;
+  font-family: Roboto Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #4E4E4E;
+}
+
+.rappresent__content_image {
+  height: 582px;
+  width: 407px;
+  overflow: hidden;
+  margin: 120px auto 140px 0;
+}
