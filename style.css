@@ -152,9 +152,6 @@ body {
   transform: scale(1.1);
 }
 
-.main__content_section {
-}
-
 .rappresent__content_article,
 .implement__content_article {
   display: flex;
@@ -394,6 +391,7 @@ slider__items_image-container {
 }
 .sign-up_section-form button:hover {
   background-color: #009CC2;
+  cursor: pointer;
 }
 
 .download_section {
@@ -461,4 +459,59 @@ slider__items_image-container {
 
 .btn-download span:hover {
   background-color: #009CC2;
+}
+
+.footer {
+  height: 185px;
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__nav_block {
+  display: flex;
+  justify-content: flex-end;
+  height: 20px;
+  width: 236px;
+  margin-left: 160px;
+}
+
+.footer__nav_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.footer__nav_list-item {
+  list-style-type: none;
+}
+
+.footer__nav_list-link {
+  text-decoration: none;
+  font-family: Roboto Regular;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.footer__logo-container {
+  height: 45px;
+  width: 45px;
+}
+
+.footer-text {
+  font-family: Roboto Regular;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: left;
+  color: #818181;
+  width: 330px;
+  padding: 0;
+  margin-left: 66px;
 }
