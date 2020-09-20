@@ -131,11 +131,10 @@ body {
   text-transform: uppercase;
   color: #FFF;
   border: none;
+  padding: 0;
 }
 
 .btn-main:hover {
-  height: 46px;
-  width: 184px;
   background-color: #009CC2;
   cursor: pointer;
 }
@@ -397,3 +396,69 @@ slider__items_image-container {
   background-color: #009CC2;
 }
 
+.download_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFF;
+  height: 464px;
+}
+
+.download_section-title {
+  font-family: Roboto Bold;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #373737;
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+
+.download_section-text {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto Regular;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #4E4E4E;
+}
+
+.download_section-btn-container {
+  display: flex;
+  justify-content: space-between;
+  width: 402px;
+}
+
+.btn-download {
+  display: flex;
+  justify-content: space-between;
+  width: 186px;
+  margin-top: 30px;
+  padding-left: 18px;
+  border: none;
+}
+
+.btn-download:hover {
+  background-color: #00AFDB;
+}
+
+.btn-download span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 59px;
+  height: 46px;
+}
+
+.btn-download span:hover {
+  background-color: #009CC2;
+}
